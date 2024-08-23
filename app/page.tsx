@@ -15,28 +15,28 @@ export default function Home() {
           <div className="carousel rounded-box w-full md:w-auto">
             <div className="carousel-item">
               <Image
-                className="object-cover w-full md:w-auto"
+                className="object-cover h-full w-full md:w-auto"
                 src="/img1.jpg"
                 alt="Burger"
-                width={300}
+                width={325}
                 height={200}
               />
             </div>
             <div className="carousel-item">
               <Image
-                className="object-cover w-full md:w-auto"
+                className="object-cover h-full w-full md:w-auto"
                 src="/img2.jpg"
                 alt="Burger"
-                width={300}
+                width={325}
                 height={200}
               />
             </div>
             <div className="carousel-item">
               <Image
-                className="object-cover w-full md:w-auto"
+                className="object-cover h-full w-full md:w-auto"
                 src="/img3.jpg"
                 alt="Burger"
-                width={300}
+                width={325}
                 height={200}
               />
             </div>
