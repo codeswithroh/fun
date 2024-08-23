@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-2xl mb-4 font-bold">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-24">
+      <h1 className="text-xl md:text-2xl mb-4 font-bold text-center">
         HAPPY BIRTHDAY TO THE PRETTIEST WOMAN 🎂
       </h1>
 
-      <div className="mockup-browser bg-base-300 border">
+      <div className="mockup-browser bg-base-300 border w-full md:w-auto">
         <div className="mockup-browser-toolbar">
           <div className="input">https://my-baby</div>
         </div>
-        <div className="bg-base-200 flex justify-center px-4 py-16">
-          <div className="carousel rounded-box">
+        <div className="bg-base-200 flex justify-center px-2 py-8 md:px-4 md:py-16">
+          <div className="carousel rounded-box w-full md:w-auto">
             <div className="carousel-item">
               <Image
-                className="object-cover"
+                className="object-cover w-full md:w-auto"
                 src="/img1.jpg"
                 alt="Burger"
                 width={300}
@@ -24,7 +24,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <Image
-                className="object-cover"
+                className="object-cover w-full md:w-auto"
                 src="/img2.jpg"
                 alt="Burger"
                 width={300}
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
             <div className="carousel-item">
               <Image
-                className="object-cover"
+                className="object-cover w-full md:w-auto"
                 src="/img3.jpg"
                 alt="Burger"
                 width={300}
@@ -43,11 +43,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-4 mt-4 bg-gray-800 rounded-lg shadow-md">
-        <h2 className="text-gray-300 text-xl font-bold mb-2">
+      <div className="p-4 mt-4 bg-gray-800 rounded-lg shadow-md w-full md:w-auto">
+        <h2 className="text-gray-300 text-lg md:text-xl font-bold mb-2 text-center">
           A Message to My Baby
         </h2>
-        <p className="text-gray-300">
+        <p className="text-gray-300 text-sm md:text-base">
           Happy Birthday, my love! 🎉💖 For almost two beautiful years, you've
           been my heart, my joy, my everything. Watching you smile and holding
           you close has been the most incredible part of my life. You’re not
