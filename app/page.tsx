@@ -19,7 +19,7 @@ export default function Home() {
                 src="/img1.jpg"
                 alt="Burger"
                 width={325}
-                height={200}
+                height={100}
               />
             </div>
             <div className="carousel-item">
@@ -28,7 +28,7 @@ export default function Home() {
                 src="/img2.jpg"
                 alt="Burger"
                 width={325}
-                height={200}
+                height={100}
               />
             </div>
             <div className="carousel-item">
@@ -37,7 +37,7 @@ export default function Home() {
                 src="/img3.jpg"
                 alt="Burger"
                 width={325}
-                height={200}
+                height={100}
               />
             </div>
           </div>
